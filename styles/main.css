@@ -1,0 +1,60 @@
+:root{
+    --one: #8EA84A;
+    --two: #E8FBBA;
+    --three: #D3FA6E;
+    --four: #717A5B;
+    --five: #A7C758;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background-image:url("../img/Speedline.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.Nav{
+    width: 100%;
+    height: 20%;
+    background-color: var(--one);
+    display: flex;
+}
+
+.Nav h1{
+    font-size: 36;
+    float: left;
+    padding: 3px 57px ;
+}
+
+.Icons{
+    display: flex;
+    align-items: center;
+}
+
+.button{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    background: var(--three);
+}
+
+.Icons li{
+    margin-left: 10px;
+    text-align: center;
+}
+.Content{
+    margin: 30px 40px;
+    background: var(--four);
+    position: fixed;
+}
